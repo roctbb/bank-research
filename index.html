@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="ут">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>iCredit - safe credit advices</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>iCredit - safe credit advices!</h1>
+      </div>
+      <p class="lead">Fill the form and press "Submit" to get a recomendation.</p>
+      <form method="post">
+          <div class="form-group">
+            <label for="checking_status">Cheking status</label>
+            <select name="checking_status" id="checking_status" class="form-control">
+              <option><0</option>
+              <option>0<=X<200</option>
+              <option>>=200</option>
+              <option>no checking</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="duration">Duration</label>
+            <input type="number" name="duration" id="duration" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="credit_history">Credit history</label>
+            <select name="credit_history" id="credit_history" class="form-control">
+              <option>no credits/all paid</option>
+              <option>all paid</option>
+              <option>existing paid</option>
+              <option>delayed previously</option>
+              <option>critical/other existing credit</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="purpose">Purpose</label>
+            <select name="purpose" id="purpose" class="form-control">
+                <option>new car</option>
+                <option>user car</option>
+                <option>furniture/equipment</option>
+                <option>radio/tv</option>
+                <option>domestic appliance</option>
+                <option>repairs</option>
+                <option>education</option>
+                <option>vacation</option>
+                <option>retraining</option>
+                <option>business</option>
+                <option>other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="credit_amount">Credit amount</label>
+            <input type="number" name="credit_amount" id="credit_amount" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="savings_status">Savings status</label>
+            <select name="savings_status" id="savings_status" class="form-control">
+              <option><100</option>
+              <option>100<=X<500</option>
+              <option>500<=X<1000</option>
+              <option>>=1000</option>
+              <option>no known savings</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="employment">Employment</label>
+            <select name="employment" id="employment" class="form-control">
+              <option>unemployed</option>
+              <option><1</option>
+              <option>1<=X<4</option>
+              <option>4<=X<7</option>
+              <option>>=7</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="installment_commitment">Installment commitment</label>
+            <input type="number" name="installment_commitment" id="installment_commitment" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="personal_status">Personal status</label>
+            <select name="personal_status" id="personal_status" class="form-control">
+              <option>male div/sep</option>
+              <option>female div/dep/mar</option>
+              <option>male single</option>
+              <option>male mar/wid</option>
+              <option>female single</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="other_parties">Other parties</label>
+            <select name="other_parties" id="other_parties" class="form-control">
+              <option>none</option>
+              <option>co applicant</option>
+              <option>guarantor</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="residence_since">Residence since</label>
+            <input type="number" name="residence_since" id="residence_since" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="personal_status">Personal status</label>
+            <select name="personal_status" id="personal_status" class="form-control">
+              <option>male div/sep</option>
+              <option>female div/dep/mar</option>
+              <option>male single</option>
+              <option>male mar/wid</option>
+              <option>female single</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="property_magnitude">Property magnitude</label>
+            <select name="property_magnitude" id="property_magnitude" class="form-control">
+              <option>real estate</option>
+              <option>life insurance</option>
+              <option>car</option>
+              <option>no known property</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="other_payment_plans">Other payment plans</label>
+            <select name="other_payment_plans" id="other_payment_plans" class="form-control">
+              <option>bank</option>
+              <option>stores</option>
+              <option>none</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="housing">Housing</label>
+            <select name="housing" id="housing" class="form-control">
+              <option>rent</option>
+              <option>own</option>
+              <option>for free</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="existing_credits">Existing credits</label>
+            <input type="number" name="existing_credits" id="existing_credits" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="job">Job</label>
+            <select name="job" id="job" class="form-control">
+              <option>unemp/unskilled non res</option>
+              <option>unskilled resident</option>
+              <option>skilled</option>
+              <option>high qualif/self emp/mgmt</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="num_dependents">Num dependents</label>
+            <input type="number" name="num_dependents" id="num_dependents" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="own_telephone">Own telephone</label>
+            <select name="own_telephone" id="own_telephone" class="form-control">
+              <option>none</option>
+              <option>yes</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="foreign_worker">Foreign worker</label>
+            <select name="foreign_worker" id="foreign_worker" class="form-control">
+              <option>yes</option>
+              <option>no</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input class="btn btn-primary" type="submit" />
+          </div>
+      </form>
+    </div>
+
+
+  </body>
+</html>
